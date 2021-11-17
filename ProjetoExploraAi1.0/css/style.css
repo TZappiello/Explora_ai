@@ -1,14 +1,15 @@
 body {
+	position: relative;
 	margin: 0px;
 	padding: 0px;
-	background-color: blue;
+	background-image: url("../Images/fuunfo.jpg");
 }
 
 .body {
 	width: 100%;
 	max-width: 990px;
 	margin: auto;
-	margin-bottom: 1000px;
+	margin-bottom: 45px;
 }
 
 .menu {
@@ -32,8 +33,8 @@ body {
 .part2_menu {
 	margin: auto;
 	margin-top: 50px;
-	background-color: #adc0ac5e;
-	width: 700px;
+	background-color: #adc0acd1;
+	width: 750px;
 	color: #36543A;
 	border-radius: 15px;
 	padding: 20px;
@@ -42,7 +43,7 @@ body {
 .part2_menu h2{
 	padding-bottom: 10px;
     width: 300px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     margin: auto;
 }
 
@@ -56,7 +57,7 @@ body {
 	cursor: pointer;
 	font-size: 20px;
 	padding-right: 10px;
-	color: white;
+	color: #000000;
 }
 
 .locais_menu a:hover{
@@ -65,7 +66,14 @@ body {
 
 #conteudo img{
 	border-radius: 15px;
+	width: 600px;
+	height: 700px;
 }
 
-
+#cadastro a{
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 20px;
+	padding-right: 10px;
+}
 
